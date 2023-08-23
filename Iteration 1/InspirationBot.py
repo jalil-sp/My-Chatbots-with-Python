@@ -1,4 +1,8 @@
-"""Magic Eight Bot"""
+'''
+Goal(s):
+- Create bot that responds with a random Quote, Joke, Inspirational Message, Song, etc.
+'''
+
 from random import choice
 
 # Must be called before importing chatbot.config.settings

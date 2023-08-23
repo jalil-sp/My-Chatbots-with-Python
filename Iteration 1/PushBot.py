@@ -1,3 +1,9 @@
+'''
+Goal(s):
+- Create a useful notification bot 
+    My bot will send reminders throughout the workday
+'''
+
 import requests
 from datetime import datetime
 

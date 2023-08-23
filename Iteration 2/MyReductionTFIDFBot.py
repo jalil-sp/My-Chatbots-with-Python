@@ -1,4 +1,10 @@
-#Based on TF-IDF Chat Bot and Word Reduction Bot
+'''
+Goal(s):
+- Create a custom preprocessor function that uses reductions
+- Pass your custom preprocessor function to getTFIDFcosineBestResponse
+- Return the best response to the user, or a default response if no best response is found
+'''
+
 # Dotenv must be called before importing chatbot.config.settings
 from dotenv import load_dotenv
 load_dotenv()

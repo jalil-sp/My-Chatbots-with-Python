@@ -1,3 +1,12 @@
+'''
+Goal(s):
+- Perform some Word Reduction
+- Remove Stop Words
+- Remove Basic Plurals forms
+- Match on a keyword
+- Return an appropriate result (logic can be simple IF&#39;s or Validators)
+'''
+
 from dotenv import load_dotenv
 load_dotenv()
 

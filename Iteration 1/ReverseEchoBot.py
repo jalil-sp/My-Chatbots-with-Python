@@ -1,14 +1,10 @@
-"""EchoBot Example using Bottle server.
+'''
+Goal(s):
+- Copy MyEchoBot.py to ReverseEchoBot.py
+- Customize ReverseEchoBot.py to reverse the received message in some form (reverse
+the letters, reverse the word order, etc.)
+'''
 
-Bottle documentation: https://bottlepy.org/docs/dev/
-
-Bottle is a 'fast, simple, and lightweight WSGI micro web-framework'.
-Due to being lightweight, we will use the Bottle web-framework
-for the CELL training examples.
-
-You are welcome to use whatever framework (Bottle, Flask, FastAPI, etc.)
-you want to choose when developing your assignments.
-"""
 # Dotenv must be called before importing chatbot.config.settings
 from dotenv import load_dotenv
 load_dotenv()

@@ -1,5 +1,19 @@
-"""EmojiMenuCard Bot"""
-#Based on EmojiBot, MenuBot, AdaptiveCardValidationBot, AdaptiveCardPizzaBot
+'''
+Goal(s)
+- The use of at least 2 Emojis
+- Reply to the user with at least one piece of User information and at least one piece
+of Office information
+- A Menu with all three menu item types
+- Respond to the Reply with the label of the menu item clicked
+- A command that will send a card to the user, it can a specific keyword from the user or
+a Reply Menu item
+- Send a card with at least two different input types, performs validation, and two
+different Submit buttons
+- Use the key value store to save some piece of information from the user. Example: Time the
+user last sent a message to the bot, High score for a game, etc
+- Update your bot's greeting to reflect the retrieved key/value for that user
+'''
+
 from random import choice
 from enum import Enum
 from typing import Set

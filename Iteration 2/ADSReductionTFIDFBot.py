@@ -1,4 +1,13 @@
-# Based on TF-IDF Chat Bot and Word Reduction Bot
+'''
+Goal(s):
+- Create a Grammar File (either as a web page by modifying index.html or as a file)
+- Move all coded reduction logic from your Python code to the ADS Grammar file
+- Move all rules that map document to corresponding response to the ADS Grammar file
+- Use Alternative Syntax Helper's alt.getBestResponse() to perform TF-IDF and cosine
+similarity to find the best response
+- Return the best response to the user, or a default response if no best response is found
+'''
+
 import os
 import sys
 # Dotenv must be called before importing chatbot.config.settings

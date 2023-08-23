@@ -1,4 +1,11 @@
-"""YodaChatBot"""
+'''
+Goal(s):
+- Create a Word Match Bot
+- Create at least one Custom Validator and use it in your bot
+- Have your bot respond to a 'Start Message'
+- Have your bot use Markdown in at least one response
+'''
+
 # Dotenv must be called before importing chatbot.config.settings
 from dotenv import load_dotenv
 load_dotenv()
