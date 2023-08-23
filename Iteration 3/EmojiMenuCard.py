@@ -69,7 +69,7 @@ def id_message(payload):
 
 @message_is("business_unit")
 def business_unit_message(payload):
-    """return user's office address"""
+    """return user's business unit"""
     info = get_user_info(payload)
     return f"Your business unit is {info.business_unit_description}"
 
@@ -77,7 +77,7 @@ def business_unit_message(payload):
 def position_message(payload):
     """return user's position"""
     info = get_user_info(payload)
-    return f"Your supervisor is {info.position_description}"
+    return f"Your position is {info.position_description}"
 
 
 # create some enums for our choices, we can turn them into choice sets easily
