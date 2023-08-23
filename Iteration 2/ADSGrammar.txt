@@ -1,0 +1,26 @@
+groupstart: mygroup
+
+debugOutput: true
+
+reduce: begin
+reduce: audio|microphone|hear|sound|loud|quiet -> mic
+reduce: camera|picture|see -> cam
+reduce: end
+
+process: removeDigits
+process: removePunctuation
+process: removePlurals
+process: removeExcessSpaces
+process: removePronouns
+process: removeNoise
+process: removeDuplicates
+
+rule: begin
+rule: 1.0 : mic : If your microphone isn't working try to allow access, else I would recommending using an external mic!
+rule: 1.0 : cam : If your camera isn't working then try to allow access in your browser settings
+rule: 1.0 : help : Type 'start'
+rule: 1.0 : both : Seems like your device may not be suitable for video calling
+rule: 1.0 : start : We will be checking your microphone and camera to see if you're on a device that can support virtual calling! <a href='https&colon;//www.loom.com/webcam-mic-test' target='_blank'> Click here</a>, if something is wrong come back and type 'help'."
+rule: end
+
+groupend: mygroup
